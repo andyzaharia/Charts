@@ -24,7 +24,7 @@ open class LineChartDataSet: LineRadarChartDataSet, ILineChartDataSet
         case horizontalBezier
     }
     
-    fileprivate func initialize()
+    open func initialize()
     {
         // default color
         circleColors.append(NSUIColor(red: 140.0/255.0, green: 234.0/255.0, blue: 255.0/255.0, alpha: 1.0))

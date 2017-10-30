@@ -54,7 +54,7 @@ open class PieRadarChartViewBase: ChartViewBase
         stopDeceleration()
     }
     
-    internal override func initialize()
+    open override func initialize()
     {
         super.initialize()
         

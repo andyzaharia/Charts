@@ -96,7 +96,7 @@ open class BarLineChartViewBase: ChartViewBase, BarLineScatterCandleBubbleChartD
         stopDeceleration()
     }
     
-    override func initialize()
+    open override func initialize()
     {
         super.initialize()
         
